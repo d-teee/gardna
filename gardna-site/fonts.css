@@ -1,0 +1,19 @@
+/* Gardna — self-hosted brand fonts */
+
+/* Body faces from Google (must precede @font-face per CSS @import rules) */
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600&family=Spline+Sans+Mono:wght@400;500&display=swap');
+
+/* ---------- Fraunces (editorial serif) ---------- */
+@font-face{font-family:'Fraunces';font-style:normal;font-weight:300;font-display:swap;src:url('fonts/Fraunces-Light.ttf') format('truetype')}
+@font-face{font-family:'Fraunces';font-style:italic;font-weight:300;font-display:swap;src:url('fonts/Fraunces-LightItalic.ttf') format('truetype')}
+@font-face{font-family:'Fraunces';font-style:normal;font-weight:400;font-display:swap;src:url('fonts/Fraunces-Regular.ttf') format('truetype')}
+@font-face{font-family:'Fraunces';font-style:italic;font-weight:400;font-display:swap;src:url('fonts/Fraunces-Italic.ttf') format('truetype')}
+@font-face{font-family:'Fraunces';font-style:normal;font-weight:500;font-display:swap;src:url('fonts/Fraunces-Medium.ttf') format('truetype')}
+@font-face{font-family:'Fraunces';font-style:italic;font-weight:500;font-display:swap;src:url('fonts/Fraunces-MediumItalic.ttf') format('truetype')}
+@font-face{font-family:'Fraunces';font-style:normal;font-weight:600;font-display:swap;src:url('fonts/Fraunces-SemiBold.ttf') format('truetype')}
+@font-face{font-family:'Fraunces';font-style:normal;font-weight:700;font-display:swap;src:url('fonts/Fraunces-Bold.ttf') format('truetype')}
+@font-face{font-family:'Fraunces';font-style:normal;font-weight:900;font-display:swap;src:url('fonts/Fraunces-Black.ttf') format('truetype')}
+@font-face{font-family:'Fraunces';font-style:italic;font-weight:900;font-display:swap;src:url('fonts/Fraunces-BlackItalic.ttf') format('truetype')}
+
+/* ---------- Lufga (brand wordmark / UI accent) ---------- */
+@font-face{font-family:'Lufga';font-style:normal;font-weight:800;font-display:swap;src:url('fonts/LufgaExtraBold.ttf') format('truetype')}
